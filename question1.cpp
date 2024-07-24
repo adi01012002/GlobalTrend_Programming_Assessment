@@ -42,6 +42,7 @@ int main()
     d.next = &e;
 
     Node temp = a;
+    cout<<"Before Reverse :";
     while (1)
     {
         cout << temp.val << " ";
@@ -51,6 +52,7 @@ int main()
     }
     Node *newNode = reverseList(&a);
     cout << endl;
+    cout<<"After Reverse :";
     while (1)
     {
         cout << newNode->val << " ";

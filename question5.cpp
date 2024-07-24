@@ -36,5 +36,5 @@ int main()
     cout << "Rotated array by " << k << " steps to the right: ";
     printArray(nums);
 
-    return 0;
+
 }

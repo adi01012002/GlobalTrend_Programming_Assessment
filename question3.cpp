@@ -71,5 +71,5 @@ int main()
 
     cout << "Maximum Path Sum: " << solution.maxPathSum(a) << endl;
 
-    return 0;
+
 }
